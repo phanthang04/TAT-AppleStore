@@ -1,426 +1,300 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-    <!DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TAT Apple - Đại lý uỷ quyền Apple</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <%--        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">--%>
+</head>
+<body>
+<%--        HEADER           --%>
+<header class="header-home">
+    <div class = "dau-tieu-de">
+        <p class = "tieu-de-phan-dau">‼️Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo <a href="">tại đây.</a></p>
+    </div>
+    <div class = "list-tieu-de">
+        <div class = "logo-tat-tieude">
+            <a href="index.jsp"><img style="width: 300px" src="image/Logo%20TAT%20-%20Apple.JPEG"></a>
+        </div>
+        <div class = "search-tren-tieu-de">
+            <input type="text" class = "tim-kiem" placeholder="Tìm kiếm sản phẩm tại TAT Apple...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class = "icon-user">
+            <a href="">
+                <i class="fa-solid fa-user"></i>
+            </a>
+        </div>
+        <div class = "icon-cart">
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+    <div class = "menu-tieu-de">
+        <a href="">iPhone</a>
+        <a href="">iPad</a>
+        <a href="">Apple Watch</a>
+        <a href="">Macbook</a>
+        <a href="">Âm thanh</a>
+        <a href="">Phụ kiện</a>
+        <a href="">Tìm hiểu thêm về iPhone</a>
+    </div>
+    <hr>
+</header>
+<%--        MAIN           --%>
+<main>
+    <%--        SLIDE CHẠY ẢNH           --%>
 
-    <head>
-        <title>TAT Apple - Đại lý uỷ quyền Apple</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styleweb.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <%-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-            rel="stylesheet">--%>
-    </head>
-
-    <body>
-        <%-- HEADER --%>
-            <header class="header-home">
-                <div class="dau-tieu-de">
-                    <p class="tieu-de-phan-dau"> ‼️Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo<a href="">tại đây.</a></p>
+    <%--        SẢN PHẨM NỔI BẬT           --%>
+    <div class="san-pham-noi-bat">
+        <div class="tieu-de-san-pham-noi-bat">
+            <h1>SẢN PHẨM NỔI BẬT</h1>
+        </div>
+        <div class="nut-kham-pha">
+            <a href="iPhone.html">Khám phá</a>
+        </div>
+    </div>
+    <div class="khung-sp-noi-bat">
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20240912/64FB084FA7981619CCB9712DC075A25B.jpeg?type=jpeg&key=0.6778022381381077" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 16</p>
+                <p class = "gia-ban-san-pham-noi-bat">21,490,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220331/E8A2A91E1811A576BC2D20B6F6808E77.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220331/9AE3E4DCD03708AC0B9BEEEB359F0C54.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/D6E70DE3B08AFF41E888B7B71A8AA255.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/181D6CEA5AC38959AE02E86CBA26B1EC.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/F0A01FD4D3A839DB126FE92DDA49B5D9.png" class = "mau-sp-noi-bat" alt=""></span>
                 </div>
-                <div class="list-tieu-de">
-                    <div class="logo-tat-tieude">
-                        <a href="index.jsp"><img style="width: 300px" src="image/Logo%20TAT%20-%20Apple.JPEG"></a>
-                    </div>
-                    <div class="search-tren-tieu-de">
-                        <input type="text" class="tim-kiem" placeholder="Tìm kiếm sản phẩm tại TAT Apple...">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="icon-user">
-                        <a href="">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-                    </div>
-                    <div class="icon-cart">
-                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20241010/D04BED9CF2577F4825F830AFE66C98AF.jpeg?type=jpeg&key=0.54023776307903" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">AirPods 4</p>
+                <p class = "gia-ban-san-pham-noi-bat">3,090,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
                 </div>
-                <div class="menu-tieu-de">
-                    <a href="">iPhone</a>
-                    <a href="">iPad</a>
-                    <a href="">Apple Watch</a>
-                    <a href="">Macbook</a>
-                    <a href="">Âm thanh</a>
-                    <a href="">Phụ kiện</a>
-                    <a href="">Tìm hiểu thêm về iPhone</a>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20241001/866658E8BCD7586E4EB1C88F5961A25E.jpeg?type=jpeg&key=0.4457927506702779" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">Apple Watch Series 10 with Sport Band</p>
+                <p class = "gia-ban-san-pham-noi-bat">10,020,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240930/D99E772352EC3071004709DAFA6D6A83.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240930/EB07520FFA60177F4D05E5A99209BED3.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240930/E7D5D61AC2F25FC804FC1F5145923904.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240930/F2E34F970D10CFF22B4619C8D6010D21.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240930/50025978DD29FB2F2E8B3A08C038B4D5.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240930/5363C2647B7C102CA64ECA4AFE4F6C23.png" class = "mau-sp-noi-bat" alt=""></span>
                 </div>
-                <hr>
-            </header>
-            <%-- MAIN --%>
-                <main>
-                    <%-- SLIDE CHẠY ẢNH --%>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20230914/C1636E141FF678ABBF0657E96FAAE6A0.jpeg" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 15</p>
+                <p class = "gia-ban-san-pham-noi-bat">19,590,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/DE492DE68E0D5D4DBE15A61C6FC9FEFB.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/8E76713358750948AA61E392F4A0D065.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/4C424E58A6B77C3DC402C1196356ACA1.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/21984018F4324ED8F922B098879F1E4F.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/2ADD845830EF8DDB92BE5AE79B19BE6F.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20240912/148C04B08DBAE633AD059A684B3DA554.jpeg?type=jpeg&key=0.9309883073864733" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 16 Plus</p>
+                <p class = "gia-ban-san-pham-noi-bat">24,690,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220331/E8A2A91E1811A576BC2D20B6F6808E77.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220331/9AE3E4DCD03708AC0B9BEEEB359F0C54.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/D6E70DE3B08AFF41E888B7B71A8AA255.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/181D6CEA5AC38959AE02E86CBA26B1EC.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/F0A01FD4D3A839DB126FE92DDA49B5D9.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="khung-sp-noi-bat">
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20240912/84E58E20BB501C976A4A65DE72FDC82D.jpeg?type=jpeg&key=0.3024484795108848" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 16 Pro</p>
+                <p class = "gia-ban-san-pham-noi-bat">27,490,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/969C5AF821AB73BB0775971CA2174DA5.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/A856CFCB19A07F0CF4B2D493882DEF4A.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/01C66942A0FF90144B658C509FCADF9F.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/6317396E2701CE86AA1A1963867C4116.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20230914/B0C78019F8AFE6CC69EFCA16560D7FC0.jpeg" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 15 Pro Max</p>
+                <p class = "gia-ban-san-pham-noi-bat">29,290,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/3A8AE6EE40686841DEA6CA7DFFDDE374.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/969C5AF821AB73BB0775971CA2174DA5.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/A856CFCB19A07F0CF4B2D493882DEF4A.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/01C66942A0FF90144B658C509FCADF9F.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20241004/F63D114BE22E225E2327F1DFD5705717.jpeg?type=jpeg&key=0.07072132567383416" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">Apple Watch Ultra 2 2024 Trail Loop</p>
+                <p class = "gia-ban-san-pham-noi-bat">22,490,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20241004/8DAD629DDBC8749B33657FD68B1492D9.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20241004/CCA84F37A695B4D015A2E53C2002F074.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20240912/D9DDBA3DB5FC59777ABC6124C38DE046.jpeg?type=jpeg&key=0.675586999543464" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 16 Pro Max</p>
+                <p class = "gia-ban-san-pham-noi-bat">32,790,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/969C5AF821AB73BB0775971CA2174DA5.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/A856CFCB19A07F0CF4B2D493882DEF4A.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230914/01C66942A0FF90144B658C509FCADF9F.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20240911/6317396E2701CE86AA1A1963867C4116.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+        <div class = "san-pham">
+            <a href="" style="text-decoration: none; color: gray">
+                <img src="https://static.id.gtech.asia/prod/100035/20230930/2A3C646882C6E2473C749CB3D34C52D5.jpeg" class = "anh-sp-noi-bat" alt="">
+                <p class = "ten-san-pham-noi-bat">iPhone 16</p>
+                <p class = "gia-ban-san-pham-noi-bat">21,490,000 <u>đ</u></p>
+                <div class = "cac-mau-sp-noi-bat">
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220331/E04524B89B2278CCD06EB7D1ECFF9A55.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220331/FD8903B578224488131B884DCC20256B.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20220412/B06EBD1E420168CEB4124142044AEB5C.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20221018/0BA2BFC3FE0F23D129AF5B0BA6E86095.png" class = "mau-sp-noi-bat" alt=""></span>
+                    <span><img src="https://static.id.gtech.asia/prod/100020/20230930/DA6650A0B236BE68240ED22D66C6138B.png" class = "mau-sp-noi-bat" alt=""></span>
+                </div>
+            </a>
+        </div>
+    </div>
 
-                        <%-- SẢN PHẨM NỔI BẬT --%>
-                            <div class="san-pham-noi-bat">
-                                <div class="tieu-de-san-pham-noi-bat">
-                                    <h1>SẢN PHẨM NỔI BẬT</h1>
-                                </div>
-                                <div class="nut-kham-pha">
-                                    <a href="iPhone.html">Khám phá</a>
-                                </div>
-                            </div>
-                            <div class="khung-sp-noi-bat">
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20240912/64FB084FA7981619CCB9712DC075A25B.jpeg?type=jpeg&key=0.6778022381381077"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 16</p>
-                                        <p class="gia-ban-san-pham-noi-bat">21,490,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220331/E8A2A91E1811A576BC2D20B6F6808E77.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220331/9AE3E4DCD03708AC0B9BEEEB359F0C54.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/D6E70DE3B08AFF41E888B7B71A8AA255.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/181D6CEA5AC38959AE02E86CBA26B1EC.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/F0A01FD4D3A839DB126FE92DDA49B5D9.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20241010/D04BED9CF2577F4825F830AFE66C98AF.jpeg?type=jpeg&key=0.54023776307903"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">AirPods 4</p>
-                                        <p class="gia-ban-san-pham-noi-bat">3,090,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20241001/866658E8BCD7586E4EB1C88F5961A25E.jpeg?type=jpeg&key=0.4457927506702779"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">Apple Watch Series 10 with Sport Band</p>
-                                        <p class="gia-ban-san-pham-noi-bat">10,020,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240930/D99E772352EC3071004709DAFA6D6A83.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240930/EB07520FFA60177F4D05E5A99209BED3.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240930/E7D5D61AC2F25FC804FC1F5145923904.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240930/F2E34F970D10CFF22B4619C8D6010D21.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240930/50025978DD29FB2F2E8B3A08C038B4D5.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240930/5363C2647B7C102CA64ECA4AFE4F6C23.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20230914/C1636E141FF678ABBF0657E96FAAE6A0.jpeg"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 15</p>
-                                        <p class="gia-ban-san-pham-noi-bat">19,590,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/DE492DE68E0D5D4DBE15A61C6FC9FEFB.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/8E76713358750948AA61E392F4A0D065.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/4C424E58A6B77C3DC402C1196356ACA1.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/21984018F4324ED8F922B098879F1E4F.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/2ADD845830EF8DDB92BE5AE79B19BE6F.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20240912/148C04B08DBAE633AD059A684B3DA554.jpeg?type=jpeg&key=0.9309883073864733"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 16 Plus</p>
-                                        <p class="gia-ban-san-pham-noi-bat">24,690,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220331/E8A2A91E1811A576BC2D20B6F6808E77.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220331/9AE3E4DCD03708AC0B9BEEEB359F0C54.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/D6E70DE3B08AFF41E888B7B71A8AA255.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/181D6CEA5AC38959AE02E86CBA26B1EC.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/F0A01FD4D3A839DB126FE92DDA49B5D9.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="khung-sp-noi-bat">
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20240912/84E58E20BB501C976A4A65DE72FDC82D.jpeg?type=jpeg&key=0.3024484795108848"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 16 Pro</p>
-                                        <p class="gia-ban-san-pham-noi-bat">27,490,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/969C5AF821AB73BB0775971CA2174DA5.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/A856CFCB19A07F0CF4B2D493882DEF4A.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/01C66942A0FF90144B658C509FCADF9F.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/6317396E2701CE86AA1A1963867C4116.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20230914/B0C78019F8AFE6CC69EFCA16560D7FC0.jpeg"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 15 Pro Max</p>
-                                        <p class="gia-ban-san-pham-noi-bat">29,290,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/3A8AE6EE40686841DEA6CA7DFFDDE374.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/969C5AF821AB73BB0775971CA2174DA5.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/A856CFCB19A07F0CF4B2D493882DEF4A.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/01C66942A0FF90144B658C509FCADF9F.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20241004/F63D114BE22E225E2327F1DFD5705717.jpeg?type=jpeg&key=0.07072132567383416"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">Apple Watch Ultra 2 2024 Trail Loop</p>
-                                        <p class="gia-ban-san-pham-noi-bat">22,490,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20241004/8DAD629DDBC8749B33657FD68B1492D9.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20241004/CCA84F37A695B4D015A2E53C2002F074.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20240912/D9DDBA3DB5FC59777ABC6124C38DE046.jpeg?type=jpeg&key=0.675586999543464"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 16 Pro Max</p>
-                                        <p class="gia-ban-san-pham-noi-bat">32,790,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/969C5AF821AB73BB0775971CA2174DA5.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/A856CFCB19A07F0CF4B2D493882DEF4A.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230914/01C66942A0FF90144B658C509FCADF9F.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20240911/6317396E2701CE86AA1A1963867C4116.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="san-pham">
-                                    <a href="" style="text-decoration: none; color: gray">
-                                        <img src="https://static.id.gtech.asia/prod/100035/20230930/2A3C646882C6E2473C749CB3D34C52D5.jpeg"
-                                            class="anh-sp-noi-bat" alt="">
-                                        <p class="ten-san-pham-noi-bat">iPhone 16</p>
-                                        <p class="gia-ban-san-pham-noi-bat">21,490,000 <u>đ</u></p>
-                                        <div class="cac-mau-sp-noi-bat">
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220331/E04524B89B2278CCD06EB7D1ECFF9A55.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220331/FD8903B578224488131B884DCC20256B.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20220412/B06EBD1E420168CEB4124142044AEB5C.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20221018/0BA2BFC3FE0F23D129AF5B0BA6E86095.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                            <span><img
-                                                    src="https://static.id.gtech.asia/prod/100020/20230930/DA6650A0B236BE68240ED22D66C6138B.png"
-                                                    class="mau-sp-noi-bat" alt=""></span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+    <%--        WHY-CHOOSE-TAT-APPLE        --%>
+    <div class="why-choose-TAT-Apple">
+        <img src="image/Why-choose-TAT-Apple.png" style="width: 100%; padding-left: 300px; padding-right: 300px" alt="">
+    </div>
 
-                            <%-- WHY-CHOOSE-TAT-APPLE --%>
-                                <div class="why-choose-TAT-Apple">
-                                    <img src="image/Why-choose-TAT-Apple.png"
-                                        style="width: 100%; padding-left: 300px; padding-right: 300px" alt="">
-                                </div>
-
-                                <%-- WORKSHOP-TIN TỨC --%>
-                                    <div class="workshops-tintuc">
-                                        <div class="workshop">
-                                            <a href="">
-                                                <img src="image/Workshop.png" alt="workshop">
-                                                <p class="text-workshop">Workshop</p>
-                                            </a>
-                                        </div>
-                                        <div class="tintuc">
-                                            <a href="">
-                                                <img src="image/TinTuc.png" alt="tintuc">
-                                                <p class="text-tintuc">Tin tức</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                </main>
-                <hr />
-                <%-- FOOTER --%>
-                    <footer style="width: auto; height: 450px;">
-                        <div class="first-footer">
-                            <div class="left-footer">
-                                <img src="image/Logo%20TAT%20-%20Apple.JPEG" style="width: 230px">
-                                <div class="text-left-footer">
-                                    <p>TAT Apple là đại lý bán lẻ ủy quyền của Apple tại Việt Nam,được phát triển bởi
-                                        tập đoàn MAP danh tiếng đến từ Indonesia.
-                                        Cam kết đem đến trải nghiệm tốt nhất về sản phẩm và dịch vụ tiêu chuẩn Apple cho
-                                        thị trường Việt Nam.</p>
-                                    <br />
-                                    <h3 style="font-family: Monsterrat-Regular">CÔNG TY TNHH MAPPLE MITRA ADIPERKASA
-                                        VIỆT NAM</h3>
-                                    <br />
-                                    <p>&copy 2021.GPDKKD số 0316998320 do Sở Kế hoạch Đầu tư T.HCM cấp ngày 27/10/2021.
-                                    </p>
-                                    <br />
-                                    <p>Tầng 9, Tòa nhà Lim Tower 3, 29A Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1,
-                                        TP.HCM.</p>
-                                    <br />
-                                    <p><span style="font-family: Monsterrat-Regular">Hotline: 1900 4532
-                                        </span><span>(9:00-17:00, Thứ 2-Thứ 6)</span></p>
-                                    <br />
-                                    <p>Email: tatapplestrore@gmail.com</p>
-                                </div>
-                            </div>
-                            <div class="footer-center">
-                                <table class="table-footer">
-                                    <tr style="font-family: Monsterrat-Regular">
-                                        <th
-                                            style="padding-right: 100px; padding-bottom: 10px; text-align: left; font-size: 15px">
-                                            Sản phẩm</th>
-                                        <th
-                                            style="padding-right: 100px; padding-bottom: 10px; text-align: left; font-size: 15px">
-                                            Thông tin</th>
-                                        <th
-                                            style="padding-right: 100px; padding-bottom: 10px; text-align: left; font-size: 15px">
-                                            Cửa hàng TAT Apple</th>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-right: 100px; padding-bottom: 10px">
-                                            <a href="">iPhone</a>
-                                        </td>
-                                        <td style="padding-right: 100px; padding-bottom: 10px">
-                                            <a href="">Về TAT Apple</a>
-                                        </td>
-                                        <td style="padding-bottom: 10px">
-                                            <a href="">Vị trí cửa hàng</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-right: 100px; padding-bottom: 10px">
-                                            <a href="">iPad</a>
-                                        </td>
-                                        <td style="padding-right: 82px; padding-bottom: 10px">
-                                            <a href="">Chính sách bảo hành</a>
-                                        </td>
-                                        <td style="padding-bottom: 10px">
-                                            <a href="">Liên hệ TAT Apple</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-right: 100px; padding-bottom: 10px">
-                                            <a href="">Apple Watch</a>
-                                        </td>
-                                        <td style="padding-right: 82px; padding-bottom: 10px">
-                                            <a href="">Chính sách giao hàng</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-right: 100px; padding-bottom: 10px">
-                                            <a href="">Macbook</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-right: 100px; padding-bottom: 10px"><a href="">Âm thanh</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-right: 100px; padding-bottom: 10px"><a href="">Phụ kiện</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="payment-method" style="margin-top: 100px">
-                                    <h3 style="font-family: Monsterrat-Regular; text-align: left; font-size: 15px">
-                                        Phương thức thanh toán</h3>
-                                    <br />
-                                    <p style="font-family: Monsterrat-Light; font-size: 12px">Chấp nhận thanh toán bằng
-                                        các app điện tử và thẻ:</p>
-                                    <img src="image/Pay.jpg" style="width: 115px; margin-top: 10px" alt="">
-                                </div>
-                            </div>
-                            <div class="right-footer">
-                                <h3 style="font-family: Monsterrat-Regular; text-align: left; font-size: 15px">Nhận
-                                    thông báo từ TAT Apple</h3>
-                                <br />
-                                <p>Đăng ký để nhận các ưu đãi độc quyền và cập nhật tin tức mới nhất từ TAT Apple!</p>
-                                <br />
-                                <p>Kết nối với TAT Apple:</p>
-                                <div class="icon-social-network-footer">
-                                    <%-- chèn link ig --%>
-                                        <a href="">
-                                            <img src="https://www.digibox.com.vn/_nuxt/img/instagram.50f26cf.png"
-                                                alt="ig">
-                                        </a>
-                                        <%-- chèn link fb --%>
-                                            <a href="">
-                                                <img src="image/logo-fb-footer.png" alt="fb">
-                                            </a>
-                                </div>
-                                <img src="image/Da-thong-bao-bo-ct.png" style="width: 150px">
-                            </div>
-                        </div>
-                    </footer>
-    </body>
-
-    </html>
+    <%--        WORKSHOP-TIN TỨC        --%>
+    <div class="workshops-tintuc">
+        <div class="workshop">
+            <a href="">
+                <img src="image/Workshop.png" alt="workshop">
+                <p class="text-workshop">Workshop</p>
+            </a>
+        </div>
+        <div class="tintuc">
+            <a href="">
+                <img src="image/TinTuc.png" alt="tintuc">
+                <p class="text-tintuc">Tin tức</p>
+            </a>
+        </div>
+    </div>
+</main>
+<hr/>
+<%--        FOOTER           --%>
+<footer style="width: auto; height: 450px;">
+    <div class = "first-footer">
+        <div class = "left-footer">
+            <img src="image/Logo%20TAT%20-%20Apple.JPEG" style="width: 230px">
+            <div class = "text-left-footer">
+                <p>TAT Apple là đại lý bán lẻ ủy quyền của Apple tại Việt Nam,được phát triển bởi tập đoàn MAP danh tiếng đến từ Indonesia.
+                    Cam kết đem đến trải nghiệm tốt nhất về sản phẩm và dịch vụ tiêu chuẩn Apple cho thị trường Việt Nam.</p>
+                <br/>
+                <h3 style="font-family: Monsterrat-Regular">CÔNG TY TNHH MAPPLE MITRA ADIPERKASA VIỆT NAM</h3>
+                <br/>
+                <p>&copy 2021.GPDKKD số 0316998320 do Sở Kế hoạch Đầu tư T.HCM cấp ngày 27/10/2021.</p>
+                <br/>
+                <p>Tầng 9, Tòa nhà Lim Tower 3, 29A Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, TP.HCM.</p>
+                <br/>
+                <p><span style="font-family: Monsterrat-Regular">Hotline: 1900 4532 </span><span>(9:00-17:00, Thứ 2-Thứ 6)</span></p>
+                <br/>
+                <p>Email: tatapplestrore@gmail.com</p>
+            </div>
+        </div>
+        <div class = "footer-center">
+            <table class = "table-footer">
+                <tr style="font-family: Monsterrat-Regular">
+                    <th style="padding-right: 100px; padding-bottom: 10px; text-align: left; font-size: 15px">Sản phẩm</th>
+                    <th style="padding-right: 100px; padding-bottom: 10px; text-align: left; font-size: 15px">Thông tin</th>
+                    <th style="padding-right: 100px; padding-bottom: 10px; text-align: left; font-size: 15px">Cửa hàng TAT Apple</th>
+                </tr>
+                <tr>
+                    <td style="padding-right: 100px; padding-bottom: 10px">
+                        <a href="">iPhone</a></td>
+                    <td style="padding-right: 100px; padding-bottom: 10px">
+                        <a href="">Về TAT Apple</a></td>
+                    <td style="padding-bottom: 10px">
+                        <a href="">Vị trí cửa hàng</a></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 100px; padding-bottom: 10px">
+                        <a href="">iPad</a></td>
+                    <td style="padding-right: 82px; padding-bottom: 10px">
+                        <a href="">Chính sách bảo hành</a></td>
+                    <td style="padding-bottom: 10px">
+                        <a href="">Liên hệ TAT Apple</a></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 100px; padding-bottom: 10px">
+                        <a href="">Apple Watch</a></td>
+                    <td style="padding-right: 82px; padding-bottom: 10px">
+                        <a href="">Chính sách giao hàng</a></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 100px; padding-bottom: 10px">
+                        <a href="">Macbook</a></td>
+                </tr>
+                <tr><td style="padding-right: 100px; padding-bottom: 10px"><a href="">Âm thanh</a></td></tr>
+                <tr><td style="padding-right: 100px; padding-bottom: 10px"><a href="">Phụ kiện</a></td></tr>
+            </table>
+            <div class="payment-method" style="margin-top: 100px">
+                <h3 style="font-family: Monsterrat-Regular; text-align: left; font-size: 15px">Phương thức thanh toán</h3>
+                <br/>
+                <p style="font-family: Monsterrat-Light; font-size: 12px">Chấp nhận thanh toán bằng các app điện tử và thẻ:</p>
+                <img src="image/Pay.jpg" style="width: 115px; margin-top: 10px" alt="">
+            </div>
+        </div>
+        <div class = "right-footer">
+            <h3 style="font-family: Monsterrat-Regular; text-align: left; font-size: 15px">Nhận thông báo từ TAT Apple</h3>
+            <br/>
+            <p>Đăng ký để nhận các ưu đãi độc quyền và cập nhật tin tức mới nhất từ TAT Apple!</p>
+            <br/>
+            <p>Kết nối với TAT Apple:</p>
+            <div class = "icon-social-network-footer">
+                <%--                    chèn link ig --%>
+                <a href="">
+                    <img src="https://www.digibox.com.vn/_nuxt/img/instagram.50f26cf.png" alt="ig">
+                </a>
+                <%--                    chèn link fb --%>
+                <a href="">
+                    <img src="image/logo-fb-footer.png" alt="fb">
+                </a>
+            </div>
+            <img src="image/Da-thong-bao-bo-ct.png" style="width: 150px">
+        </div>
+    </div>
+</footer>
+</body>
+</html>
