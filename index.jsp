@@ -16,7 +16,7 @@
         <%-- HEADER --%>
             <header class="header-home">
                 <div class="dau-tieu-de">
-                    <p class="tieu-de-phan-dau">sjdhfi.kjshdkfjhwlisjeflewflkwiegfliewluyig <a href="">tại đây.</a></p>
+                    <p class="tieu-de-phan-dau"> ‼️Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo<a href="">tại đây.</a></p>
                 </div>
                 <div class="list-tieu-de">
                     <div class="logo-tat-tieude">
