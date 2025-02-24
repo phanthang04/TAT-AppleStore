@@ -11,6 +11,8 @@
 </head>
 <body>
 <%--        HEADER           --%>
+<!-- Thằng Thắng ngu vlllllllllllllll
+ Dậy đi học điiiiiii -->
 <header class="header-home">
     <div class = "dau-tieu-de">
         <p class = "tieu-de-phan-dau">‼️Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo <a href="">tại đây.</a></p>
