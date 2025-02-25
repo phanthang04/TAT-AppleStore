@@ -4,12 +4,15 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
-body {
+main{
+    margin-top: 100px;
+}
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 150PX;
+    height: 90vh;
     background-color: #f8f8f8;
 }
 
@@ -65,7 +68,7 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
-    color: bisque;
+    color: rgb(0, 0, 0);
 }
 
 .input-group i {
@@ -96,7 +99,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    
+    text-align: center;
 }
 
 .title-container h2 {
@@ -112,4 +115,9 @@ h2 {
     text-decoration: underline;
     font-weight: normal;
     margin-top: 10px;
+}
+
+.messageError{
+    font-size: 10px;
+    color: red;
 }
