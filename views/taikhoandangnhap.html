@@ -9,39 +9,39 @@
     <link rel="stylesheet" href="../assets/Style_css/dangnhap.css">
 </head>
 <body>
-            <!-- <%-- HEADER --%> -->
-            <header class="header-home">
-                <div class="dau-tieu-de">
-                    <p class="tieu-de-phan-dau"> Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo<a href="">tại đây.</a></p>
-                </div>
-                <div class="list-tieu-de">
-                    <div class="logo-tat-tieude">
-                        <a href="index.jsp"><img style="width: 300px" src="image/Logo%20TAT%20-%20Apple.JPEG"></a>
-                    </div>
-                    <div class="search-tren-tieu-de">
-                        <input type="text" class="tim-kiem" placeholder="Tìm kiếm sản phẩm tại TAT Apple...">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="icon-user">
-                        <a href="">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-                    </div>
-                    <div class="icon-cart">
-                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
-                </div>
-                <div class="menu-tieu-de">
-                    <a href="">iPhone</a>
-                    <a href="">iPad</a>
-                    <a href="">Apple Watch</a>
-                    <a href="">Macbook</a>
-                    <a href="">Âm thanh</a>
-                    <a href="">Phụ kiện</a>
-                    <a href="">Tìm hiểu thêm về iPhone</a>
-                </div>
-                <hr>
-            </header>
+    <!-- <%-- HEADER --%> -->
+    <header class="header-home">
+        <div class="dau-tieu-de">
+            <p class="tieu-de-phan-dau"> Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo<a href="">tại đây.</a></p>
+        </div>
+        <div class="list-tieu-de">
+            <div class="logo-tat-tieude">
+                <a href="index.jsp"><img style="width: 300px" src="image/Logo%20TAT%20-%20Apple.JPEG"></a>
+            </div>
+            <div class="search-tren-tieu-de">
+                <input type="text" class="tim-kiem" placeholder="Tìm kiếm sản phẩm tại TAT Apple...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon-user">
+                <a href="">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <div class="icon-cart">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+        <div class="menu-tieu-de">
+            <a href="">iPhone</a>
+            <a href="">iPad</a>
+            <a href="">Apple Watch</a>
+            <a href="">Macbook</a>
+            <a href="">Âm thanh</a>
+            <a href="">Phụ kiện</a>
+            <a href="">Tìm hiểu thêm về iPhone</a>
+        </div>
+        <hr>
+    </header>
     <div class="container">
         <div class="illustration">
             <img src="https://www.digibox.com.vn/_nuxt/img/login.89bd579.png" alt="Illustration">
@@ -56,10 +56,12 @@
             <div class="input-group">
                 <i class="fa fa-user"></i>
                 <input type="text" placeholder="Tài Khoản">
+                <span class = "message"></span>
             </div>
             <div class="input-group">
                 <i class="fa fa-lock"></i>
                 <input type="password" placeholder="Mật Khẩu">
+                <span class = "message"></span>
             </div>
             <a href="#" class="forgot-password">Quên mật khẩu?</a>
             <button class="btn-login">Đăng nhập</button>
@@ -74,5 +76,9 @@
             </button>
         </div>
     </div>
+    <script src="../controllers/validator.js"></script>
+    <script>
+        Validator
+    </script>
 </body>
 </html>

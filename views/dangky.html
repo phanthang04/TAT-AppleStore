@@ -10,39 +10,39 @@
 
 </head>
 <body>
-            <!-- <%-- HEADER --%> -->
-            <header class="header-home">
-                <div class="dau-tieu-de">
-                    <p class="tieu-de-phan-dau"> Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo<a href="">tại đây.</a></p>
-                </div>
-                <div class="list-tieu-de">
-                    <div class="logo-tat-tieude">
-                        <a href="index.jsp"><img style="width: 300px" src="image/Logo%20TAT%20-%20Apple.JPEG"></a>
-                    </div>
-                    <div class="search-tren-tieu-de">
-                        <input type="text" class="tim-kiem" placeholder="Tìm kiếm sản phẩm tại TAT Apple...">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="icon-user">
-                        <a href="">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-                    </div>
-                    <div class="icon-cart">
-                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
-                </div>
-                <div class="menu-tieu-de">
-                    <a href="">iPhone</a>
-                    <a href="">iPad</a>
-                    <a href="">Apple Watch</a>
-                    <a href="">Macbook</a>
-                    <a href="">Âm thanh</a>
-                    <a href="">Phụ kiện</a>
-                    <a href="">Tìm hiểu thêm về iPhone</a>
-                </div>
-                <hr>
-            </header>
+    <!-- <%-- HEADER --%> -->
+    <header class="header-home">
+        <div class="dau-tieu-de">
+            <p class="tieu-de-phan-dau"> Siêu hạ giá. Siêu nhiều ưu đãi. Tìm hiểu thêm về TAT Apple tránh giả mạo<a href="">tại đây.</a></p>
+        </div>
+        <div class="list-tieu-de">
+            <div class="logo-tat-tieude">
+                <a href="index.jsp"><img style="width: 300px" src="image/Logo%20TAT%20-%20Apple.JPEG"></a>
+            </div>
+            <div class="search-tren-tieu-de">
+                <input type="text" class="tim-kiem" placeholder="Tìm kiếm sản phẩm tại TAT Apple...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon-user">
+                <a href="">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <div class="icon-cart">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+        <div class="menu-tieu-de">
+            <a href="">iPhone</a>
+            <a href="">iPad</a>
+            <a href="">Apple Watch</a>
+            <a href="">Macbook</a>
+            <a href="">Âm thanh</a>
+            <a href="">Phụ kiện</a>
+            <a href="">Tìm hiểu thêm về iPhone</a>
+        </div>
+        <hr>
+    </header>
     <div class="container">
         <!-- Hình ảnh minh họa -->
         <div class="image-container">
@@ -50,7 +50,7 @@
         </div>
 
         <!-- Form đăng ký -->
-        <div class="form-container">
+        <div class="form-container" id ="form-signUp">
             <div class="title-container">
                 <h2>Tạo tài khoản</h2>
                 <a href="taikhoandangnhap.html" class="login-link">Đăng nhập</a>
@@ -58,21 +58,46 @@
 
             <div class="input-group">
                 <i class="fa fa-envelope"></i>
-                <input type="email" placeholder="Email">
+                <input id="email" placeholder="Email">
+                <span class = "messagError"></span>
             </div>
 
             <div class="input-group">
                 <i class="fa fa-user"></i>
-                <input type="text" placeholder="Tài Khoản">
+                <input id="account" placeholder="Tài Khoản">
+                <span class = "messageErorr"></span>
             </div>
 
             <div class="input-group">
                 <i class="fa fa-lock"></i>
-                <input type="password" placeholder="Mật Khẩu">
+                <input id="password" placeholder="Mật Khẩu" type = "password">
+                <span class = "messageError"></span>
             </div>
 
             <button class="btn-login">Đăng ký</button>
         </div>
     </div>
+    <script src="../controllers/validator.js"></script>
+    <script>
+         document.addEventListener('DOMContentLoaded', function () {
+        // Mong muốn của chúng ta
+        Validator({
+          form: '#form-signUp',
+          formGroupSelector: '.input-group',
+          errorSelector: '.messageError',
+          rules: [
+            Validator.isRequired('#email'),
+            Validator.isEmail('#email'),
+            Validator.isRequired('#account', 'Vui lòng nhập tên đầy đủ của bạn'),
+            Validator.isRequired('#password'),
+            Validator.minLength('#password', 6)
+          ],
+          onSubmit: function (data) {
+            // Call API
+            console.log(data);
+          }
+        });
+      });
+    </script>
 </body>
 </html>

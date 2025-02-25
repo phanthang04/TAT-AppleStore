@@ -65,7 +65,7 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
-    color: bisque;
+    color: rgb(0, 0, 0);
 }
 
 .input-group i {
@@ -112,4 +112,9 @@ h2 {
     text-decoration: underline;
     font-weight: normal;
     margin-top: 10px;
+}
+
+.messageError{
+    font-size: 10px;
+    color: red;
 }
