@@ -86,6 +86,56 @@
     cursor: pointer;
     color: black;
 }
+.header-user{
+    position: absolute;
+    top: 115px;
+    right: 70px;
+    z-index: 10;
+    padding: 10px 0;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ebeef5;
+    border-radius: 4px;
+    box-shadow:0 2px 12px 0 rgba(0,0,0,.1);
+    transform-origin: top;
+    animation: header-user-grow ease-in 0.25s;
+    display: none;
+}
+@keyframes header-user-grow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.header-user_header{
+    font-family: Monsterrat-Regular;
+    font-size: 50%;
+    line-height: 30px;
+    padding-bottom: 10px;
+    width: max-content;
+    max-width: 400px;
+    margin: 0 20px;
+    cursor: text;
+}
+.header-user_item{
+    font-family: Monsterrat-Light;
+    font-size: 50%;
+    line-height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: max-content;
+    max-width: 400px;
+    margin-top: 4px;
+    margin-left: 24px;
+}
+
+.icon-user:hover .header-user {
+    display: block;
+}
 .icon-user a:visited{
     color: black;
 }
@@ -94,6 +144,7 @@
 }
 /*Css phần menu header*/
 .menu-tieu-de{
+    list-style-type: none;
     background-color: white;
     overflow: hidden;
     display: flex;

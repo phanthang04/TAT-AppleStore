@@ -30,11 +30,9 @@
     font-family: Monsterrat-Light;
 }
 
-
-
 .main-container {
     display: flex;
-    height: 87vh;
+    height: 85vh;
     width: 100%;
     position:inherit;
     background: rgb(255, 255, 255);
