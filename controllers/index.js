@@ -1,6 +1,6 @@
 
-const listImage = document.querySelector('.list-banner')
-const imgs = document.querySelectorAll('banners')
+const listImage = document.querySelector('.list-images')
+const imgs = document.querySelectorAll('.banner')
 const btnLeft = document.querySelector('.btn-left')
 const btnRight = document.querySelector('.btn-right')
 const length = imgs.length
