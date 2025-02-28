@@ -40,8 +40,8 @@ main{
 }
 .list-images {
     display: flex;
-    width: 500%;
-    height: 70vh;
+    /*width: 100%;*/
+    /*height: 70vh;*/
     text-align: center;
     transform: translateX();
     flex-shrink: 0;

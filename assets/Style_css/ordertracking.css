@@ -1,6 +1,9 @@
 main {
+    margin-top: 300px;
     display: flex;
     justify-content: center;
+    font-family: Monsterrat-Light;
+    margin-bottom: 100px;
 }
 .container {
     background-color: white;
@@ -78,4 +81,7 @@ input {
 }
 .continue-btn:hover {
     background-color: #80b6fa;
+}
+hr{
+    border-color: #F1F1F1;
 }
