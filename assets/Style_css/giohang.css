@@ -9,11 +9,12 @@ body {
     margin: 300px;
     padding: 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
 }
 .cart-container {
+    justify-content: center;
     width: 80%;
     max-width: 1200px;
 }
