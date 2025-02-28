@@ -34,15 +34,17 @@ main{
     text-align: center;
 }
 .slide-show {
-    
-    overflow: hidden;
+    width: 100%;
+    overflow:inherit;
     position: relative;
 }
 .list-images {
     display: flex;
-    width: 100%;
+    width: 500%;
     height: 70vh;
+    text-align: center;
     transform: translateX();
+    flex-shrink: 0;
    transition: 0.5s;
 }
 .btn:hover {

@@ -13,7 +13,6 @@ const handleChangeSlide = () => {
         listImage.style.transform = `translateX(0px)`
         document.querySelector('.active').classList.remove('active')
         document.querySelector('.index-item-'+ current).classList.add('active')
-
     } else {
         current ++
         let width = imgs[0].offsetWidth
