@@ -47,6 +47,10 @@ main{
     flex-shrink: 0;
    transition: 0.5s;
 }
+.list-images img{
+    width: 100%;
+    height: 100%;
+}
 .btn:hover {
     color: white;
 }
