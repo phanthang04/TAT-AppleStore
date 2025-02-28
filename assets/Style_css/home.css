@@ -40,7 +40,7 @@ main{
 }
 .list-images {
     display: flex;
-    width: 100%;
+    width: 500%;
     height: 70vh;
     text-align: center;
     transform: translateX();
