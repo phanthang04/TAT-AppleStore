@@ -1,0 +1,14 @@
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.infor{
+    margin: 30px 60px 100px 60px;
+    font-family: Arial;
+    line-height: 2;
+}
+
+.infor p{
+    margin-top: 30px;
+}

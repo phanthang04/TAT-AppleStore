@@ -145,11 +145,12 @@
 .all-product-frame{
     width: 1300px;
     display: flex;
-    justify-content: left;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     font-family: Monsterrat-Light;
     font-size: 14px;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 .all-product{
